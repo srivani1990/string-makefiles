@@ -1,5 +1,4 @@
-finalswap:
-	gcc swap_main.c swapfunc.c -o finalswap
+swapfinal:
+	gcc swapmain.c swapfunc.c -o swapfinal
 clean:
-	rm -f finalswap
- 
+	rm -f swapfinal
