@@ -1,5 +1,5 @@
-final:
-	gcc main.c sum.c sub.c -o final
+finalswap:
+	gcc swap_main.c swapfunc.c -o finalswap
 clean:
-	rm -f final
+	rm -f finalswap
  
