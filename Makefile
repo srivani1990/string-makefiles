@@ -1,4 +1,4 @@
-arrcpyfinal:
-	gcc arrcpymain.c arrcpyfunc.c -o arrcpyfinal
+sortfinal:
+	gcc sortmain.c sortfunc.c sortprint.c -o sortfinal
 clean:
-	rm -f arrcpyfinal
+	rm -f sortfinal
