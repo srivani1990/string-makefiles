@@ -1,4 +1,4 @@
-strpalinfinal:
-	gcc strpalinmain.c strpalinfunc.c -o strpalinfinal
+str_occ_final:
+	gcc str_occ_main.c str_occ_func.c strlenfunc.c -o str_occ_final
 clean:
-	rm -f strpalinfinal
+	rm -f str_occ_final
